@@ -3,6 +3,8 @@
   border-bottom: 1px solid var(--border);
   padding: 1rem 2rem;
   box-shadow: var(--shadow);
+  display: flex;
+  align-items: center;
 }
 
 .headerContent {
