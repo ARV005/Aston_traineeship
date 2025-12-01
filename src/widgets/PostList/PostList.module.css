@@ -1,0 +1,35 @@
+.postList {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+}
+
+.title {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 3.5rem;
+  background: var(--bg-primary);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientShift 3s ease infinite;
+}
+
+@keyframes gradientShift {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+.postsList {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.postItem {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}

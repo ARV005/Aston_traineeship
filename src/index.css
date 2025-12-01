@@ -1,0 +1,21 @@
+:root {
+  /* Светлая тема */
+  --bg-primary: #ffffff;
+  --bg-secondary: #dee2e6;
+  --text-primary: #212529;
+  --text-secondary: #6c757d;
+  --border: #e9ecef;
+  --shadow: 0 2px 4px rgba(0,0,0,0.1);
+  --accent: #007bff;
+}
+
+.dark {
+  /* Тёмная тема */
+  --bg-primary: #1a1a1a;
+  --bg-secondary: #2c2c2c;
+  --text-primary: #ffffff;
+  --text-secondary: #adb5bd;
+  --border: #495057;
+  --shadow: 0 4px 8px rgba(0,0,0,0.3);
+  --accent: #4dabf7;
+}

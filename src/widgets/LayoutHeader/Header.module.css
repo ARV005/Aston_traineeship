@@ -1,0 +1,16 @@
+.header {
+  background: var(--bg-secondary);
+  border-bottom: 1px solid var(--border);
+  padding: 1rem 2rem;
+  box-shadow: var(--shadow);
+  display: flex;
+  align-items: center;
+}
+
+.headerContent {
+  max-width: 900px;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+}

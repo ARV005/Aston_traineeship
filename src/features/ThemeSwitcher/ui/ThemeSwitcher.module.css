@@ -1,0 +1,41 @@
+.themeToggle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 25px;
+}
+
+.toggleSwitch {
+  width: 50px;
+  height: 24px;
+  background: #ccc;
+  border-radius: 12px;
+  position: relative;
+  transition: background 0.3s;
+}
+
+.toggleBall {
+  width: 20px;
+  height: 20px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  transition: transform 0.3s;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.active .toggleSwitch {
+  background: #3b82f6;
+}
+
+.active .toggleBall {
+  transform: translateX(26px);
+}
+
+.sun, .moon {
+  font-size: 20px;
+}
